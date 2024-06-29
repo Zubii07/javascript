@@ -1,4 +1,4 @@
-
+// We can use For of loop for values printing/for iterating over values directly over [ Strings, Array and maps also ]
 // for of
 
 // ["", "", ""]
