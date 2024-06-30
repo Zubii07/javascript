@@ -4,7 +4,7 @@
   representation of the document as a tree of objects, and it defines methods 
   that allow access to the tree and manipulation of its elements. */
 
-
+// How to create a new element in DOM
 
 <!DOCTYPE html>
 <html lang="en">
