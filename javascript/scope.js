@@ -3,6 +3,8 @@
    Global scope in JavaScript is where a variable is available throughout the entire program.
    Local scope refers to the limited range where a variable is accessible, such as within a function.
    The "let" keyword in JavaScript helps control variable scope, preventing unintended consequences in code.
+   let and const are block scope that means they are stored in separate memory space which is reserved for this block.
+   let and const are not accessable out of block i-e.{}. on the other hand var can b accessable out of block.
 */
 
 //var c = 300
