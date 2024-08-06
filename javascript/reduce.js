@@ -36,3 +36,25 @@ const shoppingCart = [
 const priceToPay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
 
 console.log(priceToPay);
+
+
+// Another example
+
+const user = [
+    { firstname: "M", lastname: "Zohaib", age: 21 },
+    { firstname: "Ahmad", lastname: "Sajjad", age: 45 },
+    { firstname: "falak", lastname: "Ali", age: 21 },
+    { firstname: "Talha", lastname: "Shafique", age: 67 },
+  ];
+
+  const output = user.reduce((acc, current) => {
+
+    if(current.age < 30){
+        acc.push(current.firstname);
+    }
+    
+    return acc;
+
+  }, []);
+
+  console.log(output);
