@@ -34,7 +34,13 @@ const myn1 = myArr.slice(1, 3) // 3 not included
 console.log(myn1);
 console.log("B ", myArr);
 
-
+/* syntax of splice 
+  splice(start)
+splice(start, deleteCount)
+splice(start, deleteCount, item1)
+splice(start, deleteCount, item1, item2)
+splice(start, deleteCount, item1, item2, /* …, */ itemN) */
+  
 const myn2 = myArr.splice(1, 3) // splice removes element from index 1 to index 3 and print remaining numbers
 console.log("C ", myArr);
 console.log(myn2);
