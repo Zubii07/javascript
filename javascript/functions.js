@@ -1,4 +1,4 @@
-
+// Functions are Heat of a javascript
 // All About Functions
 
 // Function Statment OR Function Declaration
